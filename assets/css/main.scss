@@ -2,6 +2,24 @@
 ---
 @charset "utf-8";
 
-@import 'vendor/normalize';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
 
-@import 'base/root';
+@import 'vendor/normalize';
+// @import 'vendor/bourbon/bourbon';
+
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+// @import 'components/buttons';
+
+// @import 'pages/home';
+// @import 'pages/contact';
+//
+// @import 'themes/theme';
+// @import 'themes/admin';
